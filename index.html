@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Exxir</title>
+    <link rel="shortcut icon" href="">
+    <!--    <link rel="stylesheet" href="css/flexboxgrid.min.css">-->
+    <link rel="stylesheet" href="css/flickity.css">
+    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if IE]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--
+    <link href="https://vjs.zencdn.net/7.1.0/video-js.css" rel="stylesheet">
+
+     If you'd like to support IE8 (for Video.js versions prior to v7)
+    <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
+-->
+</head>
+
+<body>
+    <div id="st-container" class="st-container">
+
+        <div class="st-menu navbar-a st-effect-2" id="menu-1">
+            <!-- sidebar content -->
+
+            <ul class="mobile-menu-c">
+                <li><a href="#">Divisions</a>
+                    <ul>
+                      <!--   <li>
+                            <a href="index.html#products" class="menu__link active-filter">Products</a>
+                        </li> -->
+                        <li>
+                            <a href="index.html#development" class="menu__link">Exxir Development</a>
+                        </li>
+                        <li>
+                            <a href="index.html#hospitality" class="menu__link">Exxir Hospitality</a>
+                        </li>
+                        <li>
+                            <a href="index.html#management" class="menu__link">Exxir Management</a>
+                        </li>
+                        <li>
+                            <a href="index.html#creative" class="menu__link">Exxir Creative</a>
+                        </li>
+                        <li>
+                            <a href="index.html#bafoundation" class="menu__link">Bishop Arts Foundation</a>
+                        </li>
+                        <li>
+                            <a href="index.html#all" title="" class="menu__link">All Work</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                    <ul>
+                        <li>
+                            <a href="about.html#team" title="">Team</a>
+                        </li>
+                        <li>
+                            <a href="about.html#ethos" title="">Ethos</a>
+                        </li>
+                        <li>
+                            <a href="about.html#approach" title="">Approach</a>
+                        </li>
+                        <li>
+                            <a href="http://en.wikipedia.org/wiki/earth" title=""><i class="icon-wikipedia"></i>Wikipedia</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="contact.html" title="">Contact</a>
+
+                    <ul>
+                        <li class="menu__item">
+                            <a href="mailto:abc@email.com" title="" class="menu__link">Email Now</a>
+                        </li>
+                        <li class="menu__ite ">
+                            <a href="contact.html#contact-info" title="" class="menu__link">Contact</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contact.html#directions" title="" class="menu__link"><i class="icon-location"></i>Directions</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/bishoparts/" title="">News</a>
+
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/bishoparts/" title="">
+                                <i class="icon-instagram"></i>Exxir on Instagram</a>
+                        </li>
+                    </ul>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="st-pusher">
+
+            <div class="st-content ">
+
+                <div class="st-content-inner">
+
+                    <div class="main-content">
+
+                        <a class="btn-sidebar" data-effect="st-effect-2"><span></span><span></span><span></span></a>
+
+
+                        <a class="a-logo" href="index.html">
+                            <img class="bl" src="images/ExxirLogodarkBorder.png">
+                            <img class="wh" src="images/ExxirLogolight.png">
+                        </a>
+
+                        <div class="header">
+                            <div class="main-navigation">
+                                <div class="region region-navigation">
+                                    <a id="product-filter" href="#" style="display:none" data-filter="">Filter</a>
+                                    <div class="block block-menu-block" role="navigation" id="block-menu-block-1">
+                                        <div class="menu-block-wrapper">
+                                            <ul class="menu" data-initialized="true" style="width: 370px;">
+                                              <li class="menu__item is-expanded first  has-below level-1" style="left: 0px;">
+                                                  <a href="index.html" title="" class="menu__link leaf-1" data-main="true">Facets</a>
+                                                  <div class="below-content">
+                                                      <ul class="menu work-grid">
+                                                          <!-- <li class="menu__item">
+                                                              <a href="index.html#products" data-filter="products" class="menu__link active-filter">Products</a>
+                                                          </li> -->
+                                                          <li class="menu__item">
+                                                              <a href="index.html#development" data-filter="development" class="menu__link">Exxir Development</a>
+                                                          </li>
+                                                          <li class="menu__item">
+                                                              <a href="index.html#hospitality" data-filter="hospitality" class="menu__link">Exxir Hospitality</a>
+                                                          </li>
+                                                          <li class="menu__item">
+                                                              <a href="index.html#management" data-filter="management" class="menu__link">Exxir Management</a>
+                                                          </li>
+                                                          <li class="menu__item">
+                                                              <a href="index.html#creative" data-filter="creative" class="menu__link">Exxir Creative</a>
+                                                          </li>
+                                                          <li>
+                                                              <a href="index.html#bafoundation" data-filter="bafoundation" class="menu__link">Bishop Arts Foundation</a>
+                                                          </li>
+                                                          <li class="menu__item">
+                                                              <a href="index.html#all" data-filter="all" title="" class="menu__link">All Work</a>
+                                                          </li>
+
+                                                      </ul>
+                                                  </div>
+                                                </li><span class="menu-divider menu-divider-1" style="left: 70.2344px;">&nbsp;</span>
+                                                <li class="menu__item is-expanded expanded menu-mlid-285 has-below level-1" style="left: 72.2344px;"><a href="about.html" title="" class="menu__link leaf-2 dpage" data-main="true">About</a>
+                                                    <div class="below-content">
+                                                        <ul class="menu">
+                                                            <li class="menu__item">
+                                                                <a href="about.html#team" title="" class="menu__link" data-hijaxed="true" data-anchor="people">Team</a>
+                                                            </li>
+                                                            <li class="menu__item">
+                                                                <a href="about.html#ethos" title="" class="menu__link" data-hijaxed="true" data-anchor="design-innovation">Ethos</a>
+                                                            </li>
+                                                            <li class="menu__item">
+                                                                <a href="about.html#approach" title="" class="menu__link" data-hijaxed="true" data-anchor="principles">Approach</a>
+                                                            </li>
+                                                            <li class="menu__item">
+                                                                <a href="http://en.wikipedia.org/wiki/earth" title="" class="menu__link" data-hijaxed="true"><i class="icon-wikipedia"></i>Wikipedia</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li><span class="menu-divider menu-divider-2" style="left: 174.969px;">&nbsp;</span>
+                                                <li class="menu__item is-expanded expanded menu-mlid-823 has-below level-1" style="left: 176.969px;"><a href="contact.html" title="" class="menu__link leaf-3" data-main="true">Contact</a>
+                                                    <div class="below-content">
+                                                        <ul class="menu">
+                                                            <li class="menu__item">
+                                                                <a href="mailto:abc@email.com" title="" class="menu__link">Email Now</a>
+                                                            </li>
+                                                            <li class="menu__ite ">
+                                                                <a href="contact.html#contact-info" title="" class="menu__link" data-anchor="contact-info">Contact</a>
+                                                            </li>
+                                                            <li class="menu__item">
+                                                                <a href="contact.html#directions" title="" class="menu__link" data-anchor="directions"><i class="icon-location"></i>Directions</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <span class="menu-divider menu-divider-3" style="left: 298.406px;">&nbsp;</span>
+                                                <li class="menu__item is-expanded last expanded menu-mlid-284 has-below level-1" style="left: 300.406px;">
+                                                    <a href="https://www.instagram.com/bishoparts/" title="" class="menu__link leaf-5">News</a>
+                                                    <div class="below-content">
+                                                        <ul class="menu">
+                                                            <li class="menu__item is-leaf first last leaf menu-mlid-987">
+                                                                <a href="https://www.instagram.com/bishoparts/" title="" class="menu__link">
+                                                                    <i class="icon-instagram"></i>Exxir on Instagram</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li><span class="menu-divider menu-divider-5" style="left: 0px;">&nbsp;</span>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                        <div id="dpage-wrap">
+                            <div class="">
+                                <div class="ctn-intro">
+
+                                    <div class="video">
+                                        <video muted="muted" autoplay preload="auto" poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_667_html5_api" loop="" src="" data-src="video/intro.mp4">
+                                            <source type="video/mp4" src="video/intro.mp4">
+                                            <img alt="" class="video-sizer" src="" width="640" height="360">
+                                        </video>
+                                    </div>
+                                    <div class="scroll-down">
+                                        <a class="home-scroll-down" href="work"><i class="icon-arrow-down"></i></a>
+
+                                    </div>
+                                </div>
+
+
+
+                                <div class="grid-wrap">
+                                    <div class="grid grid--loading">
+                                        <!-- Loader -->
+                                        <!--            <img class="grid__loader" src="images/grid.svg" width="60" alt="Loader image" />-->
+                                        <!-- Grid sizer for a fluid Isotope (Masonry) layout -->
+                                        <div class="grid__sizer"></div>
+                                        <!-- Grid items -->
+                                        <div class="grid__item js-anim" data-groups='["development"]'>
+
+                                              <a href="art.html" class="project-link">
+                                                  <div class="ctn-content">
+                                                      <img alt="" class="vi" src="" data-src="images/work/stevieMural.jpg">
+                                                      <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                          <source type="video/mp4" src="video/1.mp4">
+                                                          <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                      </video>-->
+                                                  </div>
+
+                                                  <div class="meta">
+                                                      <div class="ctn-txt">
+                                                          <h2><span>Title</span></h2>
+                                                          <h3>Sub Title</h3>
+                                                          <p>Description text goes here</p>
+                                                      </div>
+                                                  </div>
+                                              </a>
+                                          </div>
+                                          <div class="grid__item js-anim" data-groups='["development"]'>
+
+                                              <a href="development1.html" class="project-link">
+                                                  <div class="ctn-content">
+                                                      <img alt="" class="vi" src="" data-src="images/work/carl-redev1.jpg">
+                                                      <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                          <source type="video/mp4" src="video/1.mp4">
+                                                          <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                      </video>-->
+                                                  </div>
+
+                                                  <div class="meta">
+                                                      <div class="ctn-txt">
+                                                          <h2><span>Title</span></h2>
+                                                          <h3>Sub Title</h3>
+                                                          <p>Description text goes here</p>
+                                                      </div>
+                                                  </div>
+                                              </a>
+                                          </div>
+                                          <div class="grid__item js-anim" data-groups='["creative"]'>
+
+                                              <a href="creative2.html" class="project-link">
+                                                  <div class="ctn-content">
+                                                      <img alt="" class="vi" src="" data-src="images/art/thumbs/rafiki.jpg">
+
+                                                  </div>
+
+                                                  <div class="meta">
+                                                      <div class="ctn-txt">
+                                                          <h2><span>Title </span></h2>
+                                                          <h3>Sub Title</h3>
+                                                          <!-- field--body--grid-display.tpl.php -->
+                                                          <p>Description Text Goes Here</p>
+                                                      </div>
+
+                                                  </div>
+                                              </a>
+                                          </div>
+
+                                        <div class="grid__item js-anim" data-groups='["creative"]'>
+
+                                            <a href="creative2.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/art/thumbs/art11.jpg" />
+
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title </span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <!-- field--body--grid-display.tpl.php -->
+                                                        <p>Description Text Goes Here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["creative, development"]'>
+
+                                            <a href="creative3.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/officeFun.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["development","management"]'>
+
+                                            <a href="management1.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/Untitled-3.jpg"  alt="">
+
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title </span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <!-- field--body--grid-display.tpl.php -->
+                                                        <p>Description Text Goes Here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="grid__item js-anim" data-groups='["creative"]'>
+
+                                            <a href="creative2.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/art/thumbs/art10.jpg">
+
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title </span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <!-- field--body--grid-display.tpl.php -->
+                                                        <p>Description Text Goes Here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+
+                                        <div class="grid__item js-anim" data-groups='["creative"]'>
+
+                                            <a href="creative1.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/Untitled-17.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["creative"]'>
+
+                                            <a href="creative2.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/art/thumbs/art4.jpg"/>
+                                                    <!--<!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img alt="" class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="grid__item js-anim" data-groups='["development"]'>
+
+                                            <a href="development1.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/Untitled-7.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["management"]'>
+
+                                            <a href="management2.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/Untitled-8.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["development"]'>
+
+                                            <a href="development3.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/Untitled-9.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["creative"]'>
+
+                                            <a href="creative1.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/people/brandon.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["development"]'>
+
+                                            <a href="development3.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/Untitled-11.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["development"]'>
+
+                                            <a href="development1.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/Untitled-12.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["development"]'>
+
+                                            <a href="development2.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/BA-Rendering1.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["development"]'>
+
+                                            <a href="development3.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/carl-redev1.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["development"]'>
+
+                                            <a href="development2.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/carl-redev2.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["management"]'>
+
+                                            <a href="management1.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/maple.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                      <div class="grid__item js-anim" data-groups='["creative"]'>
+
+                                            <a href="creative1.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/stevieMural.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["development"]'>
+
+                                            <a href="development1.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/tribal.png">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["development"]'>
+
+                                            <a href="development3.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/artTruck.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["creative"]'>
+
+                                            <a href="creative3.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/asianKids.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__item js-anim" data-groups='["management"]'>
+
+                                            <a href="management2.html" class="project-link">
+                                                <div class="ctn-content">
+                                                    <img alt="" class="vi" src="" data-src="images/work/cafe.jpg">
+                                                    <!--<video muted="muted" preload="auto" autoplay poster="" class="vjs-tech" data-aspect-ratio="0.5625" id="vjs_video_461_html5_api" loop="true" src="" data-src="video/1.mp4">
+                                                        <source type="video/mp4" src="video/1.mp4">
+                                                        <img class="video-sizer" src="" width="640" height="360" style="position: absolute;">
+                                                    </video>-->
+                                                </div>
+
+                                                <div class="meta">
+                                                    <div class="ctn-txt">
+                                                        <h2><span>Title</span></h2>
+                                                        <h3>Sub Title</h3>
+                                                        <p>Description text goes here</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <!--    </div>-->
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div id="footer">
+                        <div class="inner clearfix">
+                            <div id="footer-address" class="footer-column">
+                                <h3>Exxir Main Office</h3>
+                                <p>101 N. Zang Blvd<br> Dallas, Tx. 75208<br> (+1) 214 969 1091 <br>
+                                    <a href="https://www.google.com/maps/place/Exxir+Capital/@32.7454136,-96.8271562,17z/data=!3m1!4b1!4m5!3m4!1s0x864e998fdd5d6211:0xedf3f0d3626e64f1!8m2!3d32.7454091!4d-96.8249675" rel="follow" target="_self">Directions</a>
+                                </p>
+                            </div>
+                            <div id="footer-new-business-1" class="footer-column">
+                                <p>For new leasing inquiries <br> contact Brandon Bell <br>
+                                    <a href="mailto:bbell@exxircapital.com">bbell@exxircapital.com</a> <br> (+1) 612 803 3014</p>
+                            </div>
+                            <div id="footer-inquiries" class="footer-column">
+                                <p>For general inquiries <br>
+                                    <a href="mailto:info@exxircapital.com">info@exxircapital.com</a> <br> (+1) 212 966 4040</p>
+                            </div>
+                            <div id="footer-links" class="footer-column">
+
+                                <a href="https://www.instagram.com/bishoparts/"><i class="icon-instagram"></i>Creative Flow</a>
+                                <a href="https://www.google.com/maps/place/Exxir+Capital/@32.7454136,-96.8271562,17z/data=!3m1!4b1!4m5!3m4!1s0x864e998fdd5d6211:0xedf3f0d3626e64f1!8m2!3d32.7454091!4d-96.8249675"><i class="icon-location"></i>Directions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery.js"></script>
+
+    <script src="js/flickity.pkgd.min.js"></script>
+
+    <script src="js/shuffle.js"></script>
+
+    <script src="js/sidebarEffects.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/Salvattore.js"></script>
+    <script src="js/dynamic.js"></script>
+
+
+</body>
+
+</html>
