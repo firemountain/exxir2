@@ -13,6 +13,10 @@ The problem with it is that currently it only starts after user scrolls slightly
 
 -- Should be positioned relative to the viewport bottom, and when clicked should scroll user to the top of the grid, and header menu should do it’s animated opening 
 
+### Add filters from the "Facets" menu at top of of the grid 
+-- like this https://gyazo.com/fcfc052cd0158970ae06abbd56966e91
+-- on applies to the desktop view... not mobile 
+
 ### Keep Html organized + load header and footer on each page without having to repeat code on each page
 
 -- Clicking each link on the page opens a new page. We want to keep the html organized so that each page is a different html file. 
@@ -33,7 +37,7 @@ The problem with it is that currently it only starts after user scrolls slightly
 #### -- The Header and Footer should exist on all pages.. Those elements should not need to be included in each .html file which they currently are.!!
 
 
-## Organize CSS 
+### Organize CSS 
 please remove LESS
 and please separate the css for mobile and desktop stlyes into different files 
 
