@@ -30,7 +30,13 @@ The problem with it is that currently it only starts after user scrolls slightly
   etc.html
   etc.html
 
--- The Header and Footer should exist on all pages.. Those elements should not need to be included in each .html file which they currently are.
+#### -- The Header and Footer should exist on all pages.. Those elements should not need to be included in each .html file which they currently are.!!
+
+
+## Organize CSS 
+please remove LESS
+and please separate the css for mobile and desktop stlyes into different files 
+
 
 
 ### Define and array and use for navigation arrows
@@ -48,5 +54,11 @@ Using javascript, we want to be able to define an ordered list of pages, that wo
 4=development3.html
 5=cat.html
 6=dog.html
+
+## NOTES
+please DO NOT use Bootstrap or any other CSS framwork
+please DO NOT use LESS or SASS... we only want normal CSS .
+thank you 
+
 
 
